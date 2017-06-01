@@ -1,0 +1,45 @@
+import turtle
+# square
+turtle.pendown()
+turtle.begin_fill()
+turtle.color('red')
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.end_fill()
+turtle.penup()
+turtle.left(300)
+
+# hexagon
+turtle.pendown()
+turtle.color('green')
+turtle.begin_fill()
+turtle.forward(40)
+turtle.left(60)
+turtle.forward(40)
+turtle.left(60)
+turtle.forward(40)
+turtle.left(60)
+turtle.forward(40)
+turtle.left(60)
+turtle.forward(40)
+turtle.left(60)
+turtle.forward(40)
+turtle.penup()
+turtle.left(30)
+turtle.forward(100)
+turtle.end_fill()
+
+# circle
+turtle.pendown()
+turtle.begin_fill()
+turtle.color('blue')
+turtle.circle(50)
+turtle.end_fill()
+
+
+turtle.done()

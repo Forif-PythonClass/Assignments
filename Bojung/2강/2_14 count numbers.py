@@ -1,0 +1,7 @@
+num = '101112131415'
+print 'We have ' + str(num.count('0')) + ' 0s.'
+print 'We have ' + str(num.count('1')) + ' 1s.'
+print 'We have ' + str(num.count('2')) + ' 2s.'
+print 'We have ' + str(num.count('3')) + ' 3s.'
+print 'We have ' + str(num.count('4')) + ' 4s.'
+print 'We have ' + str(num.count('5')) + ' 5s.'
